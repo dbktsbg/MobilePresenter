@@ -1,0 +1,39 @@
+{ 
+	SessionName: "My Session A",
+	SessionKey: "266000",
+	Slides: 
+	[
+		{ 
+			SlideOrdinal: 1, 
+			Answers: 
+			[
+				{
+					AnswerOrdinal: 1,
+					IsCorrect: false
+				},
+				{
+					AnswerOrdinal: 2,
+					IsCorrect: true
+				}
+			] 
+		},
+		{ 
+			SlideOrdinal: 2, 
+			Answers: 
+			[
+				{
+					AnswerOrdinal: 1,
+					IsCorrect: true
+				},
+				{
+					AnswerOrdinal: 2,
+					IsCorrect: false
+				},
+				{
+					AnswerOrdinal: 3,
+					IsCorrect: false
+				}
+			] 
+		},
+	]
+}

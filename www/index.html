@@ -1,20 +1,33 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 
 	<head>	
 	    <meta http-equiv="Content-Type" content="text/html; 	charset=UTF-8" />	
 		<meta	name="viewport"	content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>	
+        <link href="css/Bootstrap/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/Common.css" rel="stylesheet" />
         <title>Mobile Presenter</title>
 	</head>
 
 	<body>
-	
-		<div>
-			Mobile Presenter
-		</div>
+
+        <div>
+
+            <!-- ===== Slide ===== -->
+            <div style="position:absolute; width:100%; z-index:-1">
+                <img id="ActiveSlideImage"
+                     src=".\sessions\v1\Sub000000\App17\Tem\Ses283000\Res\Slide1.JPG"
+                     style="width:100%; z-index:0;" />
+            </div>
+
+        </div>
+
+
 		
 		<script type="text/javascript" src="cordova.js"></script>
+
+        <script type="text/javascript" src="js/Bootstrap/bootstrap.min.js"></script>
 
         <script type="text/javascript" src="js/index.js"></script>
 
