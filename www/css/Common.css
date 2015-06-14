@@ -1,7 +1,15 @@
 
-.Jumbotron
+body 
 {
-    font-size: 5em;
-    color: darkcyan;
-    font-weight: 500;
+    background-color: black;
+}
+
+.TransparentBackground
+{
+    background-color: transparent;
+}
+
+.OrangeBackground
+{
+    background-color: orange;
 }
