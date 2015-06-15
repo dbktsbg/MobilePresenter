@@ -9,6 +9,11 @@ body
     background-color: transparent;
 }
 
+.TranslucentBackground
+{
+    background-color: rgba(0,0,0,0.3);
+}
+
 .OrangeBackground
 {
     background-color: orange;
