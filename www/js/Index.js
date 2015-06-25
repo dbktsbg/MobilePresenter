@@ -7,6 +7,7 @@ jQuery
         var app =
         {
             initialize: function () {
+                alert("app.initialize()");
                 this.bindEvents();
             },
 
@@ -127,5 +128,6 @@ jQuery
 
         app.initialize();
 
+        alert("End of Main");
     }
 );
